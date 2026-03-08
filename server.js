@@ -8,7 +8,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://docapp-frontend-5k4q-95g2w1yp8-rajdeep-gangulys-projects.vercel.app/"    // replace with your actual Vercel URL
+    "https://docapp-frontend-sandy.vercel.app/"    // replace with your actual Vercel URL
   ],
   credentials: true
 }));
